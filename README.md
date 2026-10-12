@@ -4,7 +4,7 @@
 
 An interactive dichotomous Morse chart (Trainer Card Pro style): hold **Space** or **Key** for dits/dahs, watch the LED path light up, hear CW beeps, mute for silent practice, use Record / Play to audit timing, switch to **Practice** for Monkeytype-style CW shorthand drills, or **Listen** to hear phrases keyed for you. Mobile-friendly.
 
-Hosted as a static site on GitHub Pages.
+Hosted as a static site on GitHub Pages. Part of [Wild Idea Zone](https://www.wildideazone.com/): see the [project page](https://www.wildideazone.com/projects/morse-code-trainer) and [more projects](https://www.wildideazone.com/projects).
 
 ## Use it
 
@@ -85,6 +85,7 @@ src/
   styles.css
   assets/
     morse-card-reference.jpg   # tight crop reference for canvas card
+    wild-idea-zone.svg         # Wild Idea Zone logo (favicon + header link)
   morse/
     tree.js     # dichotomous Morse tree (letters, digits, prosigns)
     audio.js    # Web Audio CW tone + error beep

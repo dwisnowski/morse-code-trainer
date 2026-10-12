@@ -597,6 +597,53 @@ body {
   letter-spacing: 0.04em;
 }
 
+/* —— Wild Idea Zone links —— */
+.morse-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.wiz-home {
+  display: flex;
+  flex: 0 0 auto;
+  border-radius: 7px;
+  transition: transform 0.12s ease;
+}
+
+.wiz-home img {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+
+.wiz-home:hover,
+.wiz-home:focus-visible {
+  transform: translateY(-1px) scale(1.06);
+  outline: 2px solid rgba(212, 175, 55, 0.6);
+  outline-offset: 2px;
+}
+
+.wiz-footer {
+  grid-column: 1 / -1;
+  margin: 0.6rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--steel);
+  opacity: 0.8;
+}
+
+.wiz-footer a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.wiz-footer a:hover,
+.wiz-footer a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
 .morse-dock {
   flex: 1 1 auto;
   width: 100%;

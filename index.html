@@ -11,6 +11,8 @@
       name="description"
       content="Morse code trainer — key dits and dahs on a PCB dichotomous chart, drill CW shorthand, and listen to phrases keyed."
     />
+    <meta property="og:site_name" content="Wild Idea Zone" />
+    <link rel="icon" href="./src/assets/wild-idea-zone.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +26,12 @@
     <div id="page-morse" class="page page-morse">
       <div class="morse-page">
         <header class="morse-page-header">
-          <h1 class="morse-page-title">Morse Trainer</h1>
+          <div class="morse-brand">
+            <a class="wiz-home" href="https://www.wildideazone.com/" title="Wild Idea Zone: more projects">
+              <img src="./src/assets/wild-idea-zone.svg" alt="Wild Idea Zone" width="28" height="28" />
+            </a>
+            <h1 class="morse-page-title">Morse Trainer</h1>
+          </div>
           <div class="morse-mode-toggle" role="group" aria-label="Trainer mode">
             <button type="button" class="morse-mode-btn" data-mode="free" aria-pressed="true">Free key</button>
             <button type="button" class="morse-mode-btn" data-mode="practice" aria-pressed="false">Practice</button>
@@ -99,6 +106,12 @@
         </div>
 
         <aside id="morse-reference" class="morse-reference" aria-label="Code chart"></aside>
+
+        <footer class="wiz-footer">
+          A <a href="https://www.wildideazone.com/">Wild Idea Zone</a> project ·
+          <a href="https://www.wildideazone.com/projects/morse-code-trainer">About this build</a> ·
+          <a href="https://www.wildideazone.com/projects">More projects</a>
+        </footer>
       </div>
     </div>
 
